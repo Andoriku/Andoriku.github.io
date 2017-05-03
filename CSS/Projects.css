@@ -184,22 +184,22 @@ br {
     font-size: 250%;
   }
   #citytins {
-    float: inherit;
+    float: none;
     width: 100%;
     margin-bottom: 50%;
   }
   #TSRsolutions {
-    float: inherit;
+    float: none;
     width: 100%;
     margin-bottom: 50%;
   }
   #WeightUp {
-    float: inherit;
+    float: none;
     width: 100%;
     margin-bottom: 50%;
   }
   #TSRapplabs {
-    float: inherit;
+    float: none;
     width: 100%;
     margin-bottom: 50%;
   }
@@ -212,10 +212,11 @@ br {
   }
   .description-right-light {
     display: inline;
-    width: 100%;
+    text-align: center;
+    width: auto;
     margin-top: -26%;
     margin-right: 7px;
-    margin-left: 7px;
+    margin-left: 10px;
     margin-bottom: 50px;
     font-family: Champ;
     font-size: 155%;
@@ -230,7 +231,8 @@ br {
   }
   .description-left-light {
     display: inline;
-    width: 100%;
+    text-align: center;
+    width: auto;
     margin-top: -26%;
     margin-right: 7px;
     margin-left: 7px;
