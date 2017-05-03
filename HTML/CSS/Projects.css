@@ -1,0 +1,256 @@
+@font-face {
+  font-family: Raleway;
+  src: url(raleway_thin.otf);
+}
+@font-face {
+  font-family: Champ;
+  src: url(champagne_and_limousines.ttf);
+}
+@font-face {
+  font-family: Champ-Bold;
+  src: url(champagne_and_limousines_bold.ttf);
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+body {
+  margin: 0px 0px 15px 0px;
+  width: 100%;
+}
+.All {
+  -webkit-animation: fadein 1.5s;
+       -moz-animation: fadein 1.5s;
+        -ms-animation: fadein 1.5s;
+         -o-animation: fadein 1.5s;
+            animation: fadein 1.5s;
+}
+#trees {
+position: absolute;
+}
+.NavBar {
+padding-top: 21%;
+}
+h1 {
+  font-family: Champ-Bold;
+  font-size: 400%;
+  text-align: center;
+  margin-top: 15px;
+}
+p {
+  font-family: Champ;
+  font-size: 24px;
+  margin-left: 20px;
+}
+.desc {
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+Ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  background-color: #f2f2f2;
+  line-height: 38px;
+}
+li {
+  text-align: center;
+  float: left;
+}
+li a {
+  display: block;
+  width: 100px;
+  background-color: #f2f2f2;
+  color: black;
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 20px;
+}
+li a:hover {
+  background-color: gray;
+  color: white;
+}
+.active {
+  background-color: #00f3c1;
+  color: white;
+}
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  color: gray;
+  text-align: center;
+}
+br {
+  margin-top: 400px;
+}
+#citytins {
+  float: left;
+  width: 50%;
+  margin-bottom: 40px;
+}
+#TSRsolutions {
+  float: right;
+  width: 50%;
+  margin-bottom: 40px;
+}
+#WeightUp {
+  float: left;
+  width: 50%;
+  margin-bottom: 40px;
+}
+#TSRapplabs {
+  float: right;
+  width: 50%;
+  margin-bottom: 40px;
+}
+.description-right {
+  float: right;
+  display: block;
+  width: 50%;
+  padding: -200px;
+  text-align: center;
+  margin-top: -33%;
+  font-family: Champ;
+  font-size: 200%;
+}
+.description-right-light {
+  float: right;
+  display: block;
+  width: 47%;
+  padding: -200px;
+  text-align: center;
+  margin-top: -26%;
+  font-family: Champ;
+  font-size: 130%;
+}
+.description-left {
+  float: left;
+  position: relative;
+  display: inline;
+  width: 50%;
+  text-align: center;
+  margin-top: -33%;
+  margin-left: 2px;
+  font-family: Champ;
+  font-size: 200%;
+}
+.description-left-light {
+  float: left;
+  display: block;
+  width: 46%;
+  padding: -200px;
+  text-align: center;
+  margin-top: -26%;
+  margin-right: 5px;
+  font-family: Champ;
+  font-size: 130%;
+}
+.Main {
+  background-color: white;
+}
+.change {
+  color: #DCDCDC;
+}
+.change:hover {
+  transform: scale(1);
+    display: inline;
+    transition: 0.5s ease-in color, 0.5s ease-in opacity, 0.5s ease-out transform;
+    cursor: default;
+    color: black;
+}
+@media only screen and (max-width: 789px) {
+  h1 {
+    font-size: 250%;
+  }
+  #citytins {
+    float: inherit;
+    width: 100%;
+    margin-bottom: 50%;
+  }
+  #TSRsolutions {
+    float: inherit;
+    width: 100%;
+    margin-bottom: 50%;
+  }
+  #WeightUp {
+    float: inherit;
+    width: 100%;
+    margin-bottom: 50%;
+  }
+  #TSRapplabs {
+    float: inherit;
+    width: 100%;
+    margin-bottom: 50%;
+  }
+  .description-right {
+    display: inline;
+    width: 100%;
+    margin-top: -40%;
+    font-family: Champ;
+    font-size: 190%;
+  }
+  .description-right-light {
+    display: inline;
+    width: 100%;
+    margin-top: -26%;
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-bottom: 50px;
+    font-family: Champ;
+    font-size: 155%;
+  }
+  .description-left {
+    display: inline;
+    width: 100%;
+    margin-top: -40%;
+    font-family: Champ;
+    font-size: 190%;
+    margin-bottom: 70px;
+  }
+  .description-left-light {
+    display: inline;
+    width: 100%;
+    margin-top: -26%;
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-bottom: 50px;
+    font-family: Champ;
+    font-size: 155%;
+  }
+  .change {
+    color: #DCDCDC;
+  }
+  .change:hover {
+    transform: scale(1);
+      display: inline;
+      transition: 0.5s ease-in color, 0.5s ease-in opacity, 0.5s ease-out transform;
+      cursor: default;
+      color: black;
+  }
+  footer {
+    position: fixed;
+    padding: 0;
+    height: 35px;
+  }
+}

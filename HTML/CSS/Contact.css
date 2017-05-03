@@ -1,0 +1,158 @@
+@font-face {
+  font-family: Raleway;
+  src: url(raleway_thin.otf);
+}
+@font-face {
+  font-family: Champ;
+  src: url(champagne_and_limousines.ttf);
+}
+@font-face {
+  font-family: Champ-Bold;
+  src: url(champagne_and_limousines_bold.ttf);
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+body {
+  margin: 0;
+  width: 100%;
+}
+#trees {
+position: absolute;
+}
+.NavBar {
+padding-top: 21%;
+}
+Ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  background-color: #f2f2f2;
+  line-height: 38px;
+}
+.All {
+  -webkit-animation: fadein 1.5s;
+       -moz-animation: fadein 1.5s;
+        -ms-animation: fadein 1.5s;
+         -o-animation: fadein 1.5s;
+            animation: fadein 1.5s;
+}
+li {
+  text-align: center;
+  float: left;
+}
+li a {
+  display: block;
+  width: 100px;
+  background-color: #f2f2f2;
+  color: black;
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 20px;
+}
+li a:hover {
+  background-color: gray;
+  color: white;
+}
+.active {
+  background-color: #00f3c1;
+  color: white;
+}
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  color: gray;
+  text-align: center;
+}
+form {
+  text-align: center;
+  font-family: Champ-Bold;
+  font-size: 20px;
+  font-weight: 900;
+  padding-top: 50px;
+}
+.phone {
+  padding-top: 15px;
+}
+input {
+  color: gray;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  border-color: #00f3c1;
+}
+.box1 {
+  display: inline;
+}
+.box2 {
+  display: inline;
+}
+.fname {
+  display: inline;
+  padding-top: 15px;
+}
+.fname p {
+  display: inline;
+}
+.lname {
+  display: inline;
+  padding-top: 15px;
+}
+.lname p {
+  display: inline;
+}
+textarea {
+  color: gray;
+  border-radius: 6px;
+  border-color: #00f3c1;
+}
+.comment {
+  text-align: inherit;
+  padding-top: -10px;
+}
+.instructions {
+  text-align: center;
+  font-family: Champ;
+  font-size: 24px;
+  padding: 50px 30px 0px 30px;
+}
+.button {
+  margin-bottom: 100px;
+}
+@media only screen and (max-width: 445px) {
+  .fname {
+    display: block;
+  }
+  .lname {
+    display: block;
+  }
+  footer {
+    position: fixed;
+    padding: 0;
+    height: 35px;
+  }
+  .button {
+    margin-bottom: 80px;
+  }
+}
