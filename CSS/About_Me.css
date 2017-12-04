@@ -37,7 +37,7 @@ body {
          -o-animation: fadein 1.5s;
             animation: fadein 1.5s;
 }
-#face {
+#babyFace {
   display: block;
   margin: auto;
   width: 40%;
